@@ -39,3 +39,26 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
+
+define('TABLE_PREFIX', 'tbl_');
+define('CATEGORY_TABLE',TABLE_PREFIX.'cat');
+define('STORY_TABLE',TABLE_PREFIX.'story');
+define('IMAGE_TABLE',TABLE_PREFIX.'image');
+define('USER_TABLE',TABLE_PREFIX.'user');
+define('RELATION_TABLE',TABLE_PREFIX.'relation');
+define('EMAIL_TABLE',TABLE_PREFIX.'email');
+define('COUNTER_TABLE',TABLE_PREFIX.'counter');
+define('POLL_QUESTION_TABLE','polls_question');
+define('POLL_OPTION_TABLE','polls_option');
+define('QUIZ_QUESTION_TABLE','polls_question');
+define('QUIZ_OPTION_TABLE','polls_option');
+define('QUIZ_RESULT_TABLE','quiz_results');
+define('USER_ROLES_TABLE','auth_user_roles');
+define('ROLES_TABLE','auth_roles');
+define('GEO_TABLE','geo_location');
+define('NEWS_LETTER_TABLE',TABLE_PREFIX.'newsletter');
+define('STORY_VERSION_TABLE',TABLE_PREFIX.'story_version');
+define('STORY_MAIN_TABLE',TABLE_PREFIX.'story_bkp');
+define('IMAGE_VERSION_TABLE',TABLE_PREFIX.'image_version');
+define('STORY_LOCATION_VERSION','story_location_version');
+define('STORY_LOCATION','story_location');
