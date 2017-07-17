@@ -22,6 +22,7 @@
 			  			console.log('show html');
 			  		})
 			  	}
+			  	console.log("new");
 
 
 	      //   	if(response){
